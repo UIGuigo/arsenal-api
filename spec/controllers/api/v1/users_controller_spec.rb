@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Api::V1::UsersController do
-  before(:each) { request.headers['Accept'] = "application/vnd.arsenal-api.v1" }
+  before(:each) { request.headers['Accept'] = "application/vnd.arsenal.v1" }
 
   # GET 
   describe "GET #show" do

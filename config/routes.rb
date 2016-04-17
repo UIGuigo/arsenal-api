@@ -1,6 +1,7 @@
 require 'api_constraints'
 
 ArsenalApi::Application.routes.draw do
+  mount SabisuRails::Engine => "/sabisu_rails"
   devise_for :users
   # API definition
   namespace :api, 
