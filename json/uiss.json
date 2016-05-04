@@ -15,5 +15,8 @@
         "tintColor": "lightGray",
         "font":["Helvetica", 20],
         "textColor": "lightGray"
+    },
+    "UITableViewCell":{
+       "backgroundColor": "orange"
     }
 }
