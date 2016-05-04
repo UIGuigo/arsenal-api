@@ -16,7 +16,7 @@
         "font":["Helvetica", 20],
         "textColor": "lightGray"
     },
-    "UITableViewCell":{
-       "backgroundColor": "orange"
+    "UIView":{
+       "backgroundColor": "red"
     }
 }
